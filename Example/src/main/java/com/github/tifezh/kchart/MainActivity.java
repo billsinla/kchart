@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
 
                 KLine kline = KLine.objectFromData(res);
                 Log.e(TAG, "onCreate: " + kline.getLastOldTime() );
-                Log.e(TAG, "run: ");
                 //final List<KLineEntity> data = new Gson().fromJson(res, new TypeToken<List<KLineEntity>>() {
                 //}.getType());
 
